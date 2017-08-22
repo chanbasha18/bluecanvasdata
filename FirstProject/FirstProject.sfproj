@@ -1,0 +1,1979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{147d6e3d-0302-45a1-a9c4-9e5ff07d5649}</ProjectGuid>
+    <Login>snemani1@miraclesoft.com.cm</Login>
+    <Password>dKAhir76t0A/6T1zR4d/KdxYNGlenpYvmBJexlt1ZJ0clrH1wtrYpPbcmLFcPjggFkUhQ/Japmg=</Password>
+    <SecurityToken>Yio3m1/pr5f6bYYi5HWx/dVX67t1O4uXoykhh+dGwP5ug4WixrLShIliMzXw+LlW+D0aa4j2OnYmI2eU6CXxeQ==</SecurityToken>
+    <Domain>login</Domain>
+    <Environment>0</Environment>
+    <ApexVersion>39.0</ApexVersion>
+    <Name>FirstProject</Name>
+    <AssemblyName>FirstProject</AssemblyName>
+    <RootNamespace>FirstProject</RootNamespace>
+    <ProjectVersion>5</ProjectVersion>
+    <PackageVersion>1.9.6.4</PackageVersion>
+    <SyncOption>False</SyncOption>
+    <AntSupport>True</AntSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Folder Include="AnonymousApex" />
+    <Folder Include="classes\" />
+    <Folder Include="Soql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes\AccountController.cls">
+      <PhysicalRelativePath>src\classes\AccountController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JpWZAA0</Id>
+      <LastModifiedDateUtcTicks>131421065910000000</LastModifiedDateUtcTicks>
+      <Hash>jQyus3DMMWKzzQh980WRsg==</Hash>
+    </Compile>
+    <Compile Include="classes\AccountControllerExample.cls">
+      <PhysicalRelativePath>src\classes\AccountControllerExample.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JvWIAA0</Id>
+      <LastModifiedDateUtcTicks>131423390180000000</LastModifiedDateUtcTicks>
+      <Hash>pQby8qJj/TkKpcu+2UFkyg==</Hash>
+    </Compile>
+    <Compile Include="classes\AccountRemoterJS.cls">
+      <PhysicalRelativePath>src\classes\AccountRemoterJS.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KfQrAAK</Id>
+      <LastModifiedDateUtcTicks>131447727490000000</LastModifiedDateUtcTicks>
+      <Hash>vF6pflWNuEmXn38y5d8u7Q==</Hash>
+    </Compile>
+    <Compile Include="classes\AccountsController.cls">
+      <PhysicalRelativePath>src\classes\AccountsController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KQhMAAW</Id>
+      <LastModifiedDateUtcTicks>131441707060000000</LastModifiedDateUtcTicks>
+      <Hash>cuzvqBe8FCVSPCs/f5i8KQ==</Hash>
+    </Compile>
+    <Compile Include="classes\AsyncTempuriOrg.cls">
+      <PhysicalRelativePath>src\classes\AsyncTempuriOrg.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KJ7kAAG</Id>
+      <LastModifiedDateUtcTicks>131437178540000000</LastModifiedDateUtcTicks>
+      <Hash>BabQZ4JPic+zFVfRA7OyxA==</Hash>
+    </Compile>
+    <Compile Include="classes\AsyncWsStrikeironCom.cls">
+      <PhysicalRelativePath>src\classes\AsyncWsStrikeironCom.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KJ7lAAG</Id>
+      <LastModifiedDateUtcTicks>131437178540000000</LastModifiedDateUtcTicks>
+      <Hash>mwmct5gKifiy9PR+4O+NUg==</Hash>
+    </Compile>
+    <Compile Include="classes\AsyncWwwApprouterComConnectorsResponse7.cls">
+      <PhysicalRelativePath>src\classes\AsyncWwwApprouterComConnectorsResponse7.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KeNZAA0</Id>
+      <LastModifiedDateUtcTicks>131445235990000000</LastModifiedDateUtcTicks>
+      <Hash>MY+63LJkSwX9FiCFU9dUlQ==</Hash>
+    </Compile>
+    <Compile Include="classes\AsyncWwwApprouterComConnectorsWsdl.cls">
+      <PhysicalRelativePath>src\classes\AsyncWwwApprouterComConnectorsWsdl.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KeNYAA0</Id>
+      <LastModifiedDateUtcTicks>131445235990000000</LastModifiedDateUtcTicks>
+      <Hash>AbeAZ6muuxhWpUkQHiADAw==</Hash>
+    </Compile>
+    <Compile Include="classes\BlueCanvas.cls">
+      <PhysicalRelativePath>src\classes\BlueCanvas.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006LhI3AAK</Id>
+      <LastModifiedDateUtcTicks>131478628760000000</LastModifiedDateUtcTicks>
+      <Hash>GLufV+1W1X/z/dF0vCFKzw==</Hash>
+    </Compile>
+    <Compile Include="classes\Button_Check.cls">
+      <PhysicalRelativePath>src\classes\Button_Check.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006Kl3pAAC</Id>
+      <LastModifiedDateUtcTicks>131449621330000000</LastModifiedDateUtcTicks>
+      <Hash>CmM4FubeAhmwdvGA4EsRSA==</Hash>
+    </Compile>
+    <Compile Include="classes\CaseAllocation.cls">
+      <PhysicalRelativePath>src\classes\CaseAllocation.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002YV3yAAG</Id>
+      <LastModifiedDateUtcTicks>131346699860000000</LastModifiedDateUtcTicks>
+      <Hash>vEExAz9sKgcO1KDBDdOLGw==</Hash>
+    </Compile>
+    <Compile Include="classes\CaseAssignment.cls">
+      <PhysicalRelativePath>src\classes\CaseAssignment.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002YtOiAAK</Id>
+      <LastModifiedDateUtcTicks>131356356600000000</LastModifiedDateUtcTicks>
+      <Hash>sStrnf+vGKrYPZN2BIKNAw==</Hash>
+    </Compile>
+    <Compile Include="classes\CaseAssignmentTest.cls">
+      <PhysicalRelativePath>src\classes\CaseAssignmentTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003ZP2wAAG</Id>
+      <LastModifiedDateUtcTicks>131375009820000000</LastModifiedDateUtcTicks>
+      <Hash>IZ4nEm4UQnxhFgX35od61g==</Hash>
+    </Compile>
+    <Compile Include="classes\CaseFieldsGet.cls">
+      <PhysicalRelativePath>src\classes\CaseFieldsGet.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KcAvAAK</Id>
+      <LastModifiedDateUtcTicks>131378703720000000</LastModifiedDateUtcTicks>
+      <Hash>31/JmWhefDLdnpxog9lOXw==</Hash>
+    </Compile>
+    <Compile Include="classes\CasesMain.cls">
+      <PhysicalRelativePath>src\classes\CasesMain.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004R8DQAA0</Id>
+      <LastModifiedDateUtcTicks>131471772730000000</LastModifiedDateUtcTicks>
+      <Hash>iPp7uIrVk0MDiN9K8Eq4rg==</Hash>
+    </Compile>
+    <Compile Include="classes\CasesMainTest.cls">
+      <PhysicalRelativePath>src\classes\CasesMainTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004REByAAO</Id>
+      <LastModifiedDateUtcTicks>131381155750000000</LastModifiedDateUtcTicks>
+      <Hash>I5aBzVw9wwvtxKevfAHlvw==</Hash>
+    </Compile>
+    <Compile Include="classes\CasesMainTestDataGenerator.cls">
+      <PhysicalRelativePath>src\classes\CasesMainTestDataGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RDiDAAW</Id>
+      <LastModifiedDateUtcTicks>131381154910000000</LastModifiedDateUtcTicks>
+      <Hash>VghO/fFE7IzweTRGXhN1iQ==</Hash>
+    </Compile>
+    <Compile Include="classes\CaseUserHelper.cls">
+      <PhysicalRelativePath>src\classes\CaseUserHelper.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002YWn9AAG</Id>
+      <LastModifiedDateUtcTicks>131364790800000000</LastModifiedDateUtcTicks>
+      <Hash>xfFPQqIT0p8C33/Lh2DVTA==</Hash>
+    </Compile>
+    <Compile Include="classes\CaseUserHelperTest.cls">
+      <PhysicalRelativePath>src\classes\CaseUserHelperTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002YxALAA0</Id>
+      <LastModifiedDateUtcTicks>131364793630000000</LastModifiedDateUtcTicks>
+      <Hash>67cEBvVTGMhwGRSfRbgARA==</Hash>
+    </Compile>
+    <Compile Include="classes\CastIronLogin.cls">
+      <PhysicalRelativePath>src\classes\CastIronLogin.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KkglAAC</Id>
+      <LastModifiedDateUtcTicks>131449485770000000</LastModifiedDateUtcTicks>
+      <Hash>eCsI6Jsa/029J6qEEz+jqw==</Hash>
+    </Compile>
+    <Compile Include="classes\CastIron_Invoke.cls">
+      <PhysicalRelativePath>src\classes\CastIron_Invoke.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KJ7pAAG</Id>
+      <LastModifiedDateUtcTicks>131437224060000000</LastModifiedDateUtcTicks>
+      <Hash>8Rxa/f8kkCMlPgWyQxwEWg==</Hash>
+    </Compile>
+    <Compile Include="classes\ChangePasswordController.cls">
+      <PhysicalRelativePath>src\classes\ChangePasswordController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOkAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>5fU+vmLmMyNkgxqiTXdyTw==</Hash>
+    </Compile>
+    <Compile Include="classes\ChangePasswordControllerTest.cls">
+      <PhysicalRelativePath>src\classes\ChangePasswordControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOlAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>dPIkufIQdG33PbFDL7ol1A==</Hash>
+    </Compile>
+    <Compile Include="classes\CommunitiesLandingController.cls">
+      <PhysicalRelativePath>src\classes\CommunitiesLandingController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZ3AAK</Id>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>2MFIKanFgJX+AJPQ8/xRYg==</Hash>
+    </Compile>
+    <Compile Include="classes\CommunitiesLandingControllerTest.cls">
+      <PhysicalRelativePath>src\classes\CommunitiesLandingControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZ4AAK</Id>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>kUYm5NBt3/mxtxJR0VidrQ==</Hash>
+    </Compile>
+    <Compile Include="classes\CommunitiesLoginController.cls">
+      <PhysicalRelativePath>src\classes\CommunitiesLoginController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZ1AAK</Id>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>XUUy4jUp7f5AEcw7TVlVQQ==</Hash>
+    </Compile>
+    <Compile Include="classes\CommunitiesLoginControllerTest.cls">
+      <PhysicalRelativePath>src\classes\CommunitiesLoginControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZ2AAK</Id>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>azdU/2VNXhJlcN0TuYyzWQ==</Hash>
+    </Compile>
+    <Compile Include="classes\CommunitiesSelfRegConfirmController.cls">
+      <PhysicalRelativePath>src\classes\CommunitiesSelfRegConfirmController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZ7AAK</Id>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>yRKE+7HvnAZ6f6Qb+xkzJA==</Hash>
+    </Compile>
+    <Compile Include="classes\CommunitiesSelfRegConfirmControllerTest.cls">
+      <PhysicalRelativePath>src\classes\CommunitiesSelfRegConfirmControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZ8AAK</Id>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>shX7GeYKnS5RlS5JNnor9g==</Hash>
+    </Compile>
+    <Compile Include="classes\CommunitiesSelfRegController.cls">
+      <PhysicalRelativePath>src\classes\CommunitiesSelfRegController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZ5AAK</Id>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>DbwQIjdjYkZBirwgA1osAA==</Hash>
+    </Compile>
+    <Compile Include="classes\CommunitiesSelfRegControllerTest.cls">
+      <PhysicalRelativePath>src\classes\CommunitiesSelfRegControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZ6AAK</Id>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>lj9aDHDl5+W2o3mGu29Q/g==</Hash>
+    </Compile>
+    <Compile Include="classes\ContactController.cls">
+      <PhysicalRelativePath>src\classes\ContactController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JiWgAAK</Id>
+      <LastModifiedDateUtcTicks>131418317880000000</LastModifiedDateUtcTicks>
+      <Hash>RsUW43kjuqd1o9AzDq92ig==</Hash>
+    </Compile>
+    <Compile Include="classes\DataInsert.cls">
+      <PhysicalRelativePath>src\classes\DataInsert.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KRQXAA4</Id>
+      <LastModifiedDateUtcTicks>131381339790000000</LastModifiedDateUtcTicks>
+      <Hash>tXCnvZ7uKazBwoo3S00/yA==</Hash>
+    </Compile>
+    <Compile Include="classes\Describer.cls">
+      <PhysicalRelativePath>src\classes\Describer.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KALVAA4</Id>
+      <LastModifiedDateUtcTicks>131371820150000000</LastModifiedDateUtcTicks>
+      <Hash>o+4yuMMGl4PcOyuNMk0XLA==</Hash>
+    </Compile>
+    <Compile Include="classes\Deserialization.cls">
+      <PhysicalRelativePath>src\classes\Deserialization.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003X5azAAC</Id>
+      <LastModifiedDateUtcTicks>131382945290000000</LastModifiedDateUtcTicks>
+      <Hash>AC6SGfYkzeoFgLAP1DR3/Q==</Hash>
+    </Compile>
+    <Compile Include="classes\deserializejirajson.cls">
+      <PhysicalRelativePath>src\classes\deserializejirajson.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RCH3AAO</Id>
+      <LastModifiedDateUtcTicks>131382607840000000</LastModifiedDateUtcTicks>
+      <Hash>acybVN1UWu5uvm9U0yWy/g==</Hash>
+    </Compile>
+    <Compile Include="classes\DynamicAccountFieldsLister.cls">
+      <PhysicalRelativePath>src\classes\DynamicAccountFieldsLister.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KH5UAAW</Id>
+      <LastModifiedDateUtcTicks>131372393350000000</LastModifiedDateUtcTicks>
+      <Hash>t6vNt9r1ZM2PwYlz7eFmQQ==</Hash>
+    </Compile>
+    <Compile Include="classes\DynamicCustomizableListHandler.cls">
+      <PhysicalRelativePath>src\classes\DynamicCustomizableListHandler.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KH5oAAG</Id>
+      <LastModifiedDateUtcTicks>131372405370000000</LastModifiedDateUtcTicks>
+      <Hash>q3LNk0tzLMrsQyihPMy10Q==</Hash>
+    </Compile>
+    <Compile Include="classes\DynamicFieldMapping.cls">
+      <PhysicalRelativePath>src\classes\DynamicFieldMapping.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KNpdAAG</Id>
+      <LastModifiedDateUtcTicks>131376599030000000</LastModifiedDateUtcTicks>
+      <Hash>QZKTvryKvqN7DAhlfph92w==</Hash>
+    </Compile>
+    <Compile Include="classes\DynamicObjectHandler.cls">
+      <PhysicalRelativePath>src\classes\DynamicObjectHandler.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KXC7AAO</Id>
+      <LastModifiedDateUtcTicks>131377705240000000</LastModifiedDateUtcTicks>
+      <Hash>RT2xi2NAHyJvDAMr3oWypg==</Hash>
+    </Compile>
+    <Compile Include="classes\DynamicTableController.cls">
+      <PhysicalRelativePath>src\classes\DynamicTableController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KToMAAW</Id>
+      <LastModifiedDateUtcTicks>131377880550000000</LastModifiedDateUtcTicks>
+      <Hash>B7JuDqAsXiedAmPXb8SuQA==</Hash>
+    </Compile>
+    <Compile Include="classes\DynamicVFClass.cls">
+      <PhysicalRelativePath>src\classes\DynamicVFClass.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KXCCAA4</Id>
+      <LastModifiedDateUtcTicks>131377711610000000</LastModifiedDateUtcTicks>
+      <Hash>Biveg72zzjACE/UGS6iIhg==</Hash>
+    </Compile>
+    <Compile Include="classes\Dynamic_Deserialization.cls">
+      <PhysicalRelativePath>src\classes\Dynamic_Deserialization.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KmuSAAS</Id>
+      <LastModifiedDateUtcTicks>131383658500000000</LastModifiedDateUtcTicks>
+      <Hash>s2g1eAOsKRyxLp4ZQoJggQ==</Hash>
+    </Compile>
+    <Compile Include="classes\ExpenseController.cls">
+      <PhysicalRelativePath>src\classes\ExpenseController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JkLRAA0</Id>
+      <LastModifiedDateUtcTicks>131419165760000000</LastModifiedDateUtcTicks>
+      <Hash>J3Ubk4cN0cNCAtyKu6kkUQ==</Hash>
+    </Compile>
+    <Compile Include="classes\ExpensesController.cls">
+      <PhysicalRelativePath>src\classes\ExpensesController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JiWMAA0</Id>
+      <LastModifiedDateUtcTicks>131418266880000000</LastModifiedDateUtcTicks>
+      <Hash>AT8Dcxi5NBbrf3lvz6vpKQ==</Hash>
+    </Compile>
+    <Compile Include="classes\ForgotPasswordController.cls">
+      <PhysicalRelativePath>src\classes\ForgotPasswordController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOmAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>2PBu1CvNXOdQ7kEoGcKGGw==</Hash>
+    </Compile>
+    <Compile Include="classes\ForgotPasswordControllerTest.cls">
+      <PhysicalRelativePath>src\classes\ForgotPasswordControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOnAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>YcvvWs2ojzc5vPWpORO6UQ==</Hash>
+    </Compile>
+    <Compile Include="classes\HelloWorld18Controller.cls">
+      <PhysicalRelativePath>src\classes\HelloWorld18Controller.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KrEFAA0</Id>
+      <LastModifiedDateUtcTicks>131453695550000000</LastModifiedDateUtcTicks>
+      <Hash>kc9/KGdvHqRtDI1IZNFrNg==</Hash>
+    </Compile>
+    <Compile Include="classes\HotelMaps.cls">
+      <PhysicalRelativePath>src\classes\HotelMaps.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006Kp9XAAS</Id>
+      <LastModifiedDateUtcTicks>131451286890000000</LastModifiedDateUtcTicks>
+      <Hash>XiOuPJZtgQbVPkRVZD5NUA==</Hash>
+    </Compile>
+    <Compile Include="classes\HttpFormBuilder.cls">
+      <PhysicalRelativePath>src\classes\HttpFormBuilder.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004Pv8qAAC</Id>
+      <LastModifiedDateUtcTicks>131359543520000000</LastModifiedDateUtcTicks>
+      <Hash>TReogC7OdiAXikcA3OYurg==</Hash>
+    </Compile>
+    <Compile Include="classes\InTheArea.cls">
+      <PhysicalRelativePath>src\classes\InTheArea.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KYeLAAW</Id>
+      <LastModifiedDateUtcTicks>131443420960000000</LastModifiedDateUtcTicks>
+      <Hash>NfXWVrT6HJGFVhoBLK67OA==</Hash>
+    </Compile>
+    <Compile Include="classes\Invoke_Webservice.cls">
+      <PhysicalRelativePath>src\classes\Invoke_Webservice.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KJ8EAAW</Id>
+      <LastModifiedDateUtcTicks>131438083550000000</LastModifiedDateUtcTicks>
+      <Hash>XpCSeC+656+Ii5XhwoZLdQ==</Hash>
+    </Compile>
+    <Compile Include="classes\Issue.cls">
+      <PhysicalRelativePath>src\classes\Issue.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003YeYmAAK</Id>
+      <LastModifiedDateUtcTicks>131354278960000000</LastModifiedDateUtcTicks>
+      <Hash>jefoHyqFC12WRj2GS+5YYQ==</Hash>
+    </Compile>
+    <Compile Include="classes\IssueResponceDeserilize.cls">
+      <PhysicalRelativePath>src\classes\IssueResponceDeserilize.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003YcI9AAK</Id>
+      <LastModifiedDateUtcTicks>131362114610000000</LastModifiedDateUtcTicks>
+      <Hash>7diZQItwKqZ6aXW2nONzAA==</Hash>
+    </Compile>
+    <Compile Include="classes\IssuesToCases.cls">
+      <PhysicalRelativePath>src\classes\IssuesToCases.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RABwAAO</Id>
+      <LastModifiedDateUtcTicks>131363034810000000</LastModifiedDateUtcTicks>
+      <Hash>iGP+6m3CMkNDeV3IColhFw==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraFieldsController.cls">
+      <PhysicalRelativePath>src\classes\JiraFieldsController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KWsWAAW</Id>
+      <LastModifiedDateUtcTicks>131377777530000000</LastModifiedDateUtcTicks>
+      <Hash>QI6pkoql6weuaL5nACI8aQ==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCaseGet.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCaseGet.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003Xi8cAAC</Id>
+      <LastModifiedDateUtcTicks>131471751650000000</LastModifiedDateUtcTicks>
+      <Hash>QqHvR5sxyxT44zy5JQcAww==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCaseGetMockGenerator.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCaseGetMockGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RsqQAAS</Id>
+      <LastModifiedDateUtcTicks>131381206310000000</LastModifiedDateUtcTicks>
+      <Hash>01YmVSu/6KWWE0SmWfNg9g==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCaseGetTest.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCaseGetTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RsqVAAS</Id>
+      <LastModifiedDateUtcTicks>131381210450000000</LastModifiedDateUtcTicks>
+      <Hash>Va+LXgu3lfj0zUlfX3xi5Q==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCasePost.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCasePost.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003Xi8bAAC</Id>
+      <LastModifiedDateUtcTicks>131388169110000000</LastModifiedDateUtcTicks>
+      <Hash>Jt5dKEWOUbBpDbyekp223Q==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCasePostMockGenerator.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCasePostMockGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RykjAAC</Id>
+      <LastModifiedDateUtcTicks>131382044690000000</LastModifiedDateUtcTicks>
+      <Hash>h319UYs5HBJ8RAFnu95W4Q==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCasePostTest.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCasePostTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RyrgAAC</Id>
+      <LastModifiedDateUtcTicks>131388144760000000</LastModifiedDateUtcTicks>
+      <Hash>Tl6+EUDxrtHNfBIKdrnJeg==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCasePut.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCasePut.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003Xi8hAAC</Id>
+      <LastModifiedDateUtcTicks>131388152850000000</LastModifiedDateUtcTicks>
+      <Hash>0SCRtvkwXsqXPpq1sL5Q7w==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCasePutMockGenerator.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCasePutMockGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SE1uAAG</Id>
+      <LastModifiedDateUtcTicks>131382643510000000</LastModifiedDateUtcTicks>
+      <Hash>ope7Iu2PTxdgNBh/4J7+9A==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCasePutTest.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCasePutTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SENdAAO</Id>
+      <LastModifiedDateUtcTicks>131382647080000000</LastModifiedDateUtcTicks>
+      <Hash>cOxY/O+fSg53n4HpauzbWA==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCaseUpsert.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCaseUpsert.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004Qv1qAAC</Id>
+      <LastModifiedDateUtcTicks>131387966520000000</LastModifiedDateUtcTicks>
+      <Hash>mzoYPuuMaFzxTGYRh6yD+w==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCaseUpsertMockGenerator.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCaseUpsertMockGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SFFlAAO</Id>
+      <LastModifiedDateUtcTicks>131364469160000000</LastModifiedDateUtcTicks>
+      <Hash>V+XYrMqLPZ6nYqK+PZD/iQ==</Hash>
+    </Compile>
+    <Compile Include="classes\JiraSfCaseUpsertTest.cls">
+      <PhysicalRelativePath>src\classes\JiraSfCaseUpsertTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SFFqAAO</Id>
+      <LastModifiedDateUtcTicks>131375071080000000</LastModifiedDateUtcTicks>
+      <Hash>OnKUo0veLKFvtg5/ytCNCw==</Hash>
+    </Compile>
+    <Compile Include="classes\JWT.cls">
+      <PhysicalRelativePath>src\classes\JWT.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004Pv2XAAS</Id>
+      <LastModifiedDateUtcTicks>131359537770000000</LastModifiedDateUtcTicks>
+      <Hash>9Gh+gXx0bNmj041OaWf0oA==</Hash>
+    </Compile>
+    <Compile Include="classes\JWTBearerFlow.cls">
+      <PhysicalRelativePath>src\classes\JWTBearerFlow.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004Pv2cAAC</Id>
+      <LastModifiedDateUtcTicks>131359546570000000</LastModifiedDateUtcTicks>
+      <Hash>ZtqY1ukCn/L13l4N0q0Hpw==</Hash>
+    </Compile>
+    <Compile Include="classes\LightningConnectQuickstart.cls">
+      <PhysicalRelativePath>src\classes\LightningConnectQuickstart.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzcJAAS</Id>
+      <LastModifiedDateUtcTicks>131425256450000000</LastModifiedDateUtcTicks>
+      <Hash>Njys/pDNUeB5NtGiKSmkUA==</Hash>
+    </Compile>
+    <Compile Include="classes\LightningForgotPasswordController.cls">
+      <PhysicalRelativePath>src\classes\LightningForgotPasswordController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZGAA0</Id>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>+XK+L2Z7BQnp6VYFwjKpfQ==</Hash>
+    </Compile>
+    <Compile Include="classes\LightningForgotPasswordControllerTest.cls">
+      <PhysicalRelativePath>src\classes\LightningForgotPasswordControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZJAA0</Id>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>vTFfu3yDq56R3w3HDT5Grw==</Hash>
+    </Compile>
+    <Compile Include="classes\LightningLoginFormController.cls">
+      <PhysicalRelativePath>src\classes\LightningLoginFormController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZHAA0</Id>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>185H1VMPqoxGRp+wrCxf6A==</Hash>
+    </Compile>
+    <Compile Include="classes\LightningLoginFormControllerTest.cls">
+      <PhysicalRelativePath>src\classes\LightningLoginFormControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZIAA0</Id>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>4S4/1QTjsuySZjWQA1+liw==</Hash>
+    </Compile>
+    <Compile Include="classes\LightningSelfRegisterController.cls">
+      <PhysicalRelativePath>src\classes\LightningSelfRegisterController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZFAA0</Id>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>0htlT5vXHIbBdoFkGagXgA==</Hash>
+    </Compile>
+    <Compile Include="classes\LightningSelfRegisterControllerTest.cls">
+      <PhysicalRelativePath>src\classes\LightningSelfRegisterControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JzZKAA0</Id>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>jfK6YQYCRErPWCFgpFzs5g==</Hash>
+    </Compile>
+    <Compile Include="classes\Login.cls">
+      <PhysicalRelativePath>src\classes\Login.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KkXZAA0</Id>
+      <LastModifiedDateUtcTicks>131449226070000000</LastModifiedDateUtcTicks>
+      <Hash>3pih2XYLVAd5AQJZtkrZ8w==</Hash>
+    </Compile>
+    <Compile Include="classes\MockTestClassGenerator.cls">
+      <PhysicalRelativePath>src\classes\MockTestClassGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RlWBAA0</Id>
+      <LastModifiedDateUtcTicks>131363922010000000</LastModifiedDateUtcTicks>
+      <Hash>Oo4d1S/Z1lLcxxj6yASlpg==</Hash>
+    </Compile>
+    <Compile Include="classes\multiselect.cls">
+      <PhysicalRelativePath>src\classes\multiselect.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KcAgAAK</Id>
+      <LastModifiedDateUtcTicks>131378593330000000</LastModifiedDateUtcTicks>
+      <Hash>aLOuJN1pVF3aj6T1i6JN6Q==</Hash>
+    </Compile>
+    <Compile Include="classes\MyContactListController.cls">
+      <PhysicalRelativePath>src\classes\MyContactListController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JpUdAAK</Id>
+      <LastModifiedDateUtcTicks>131420999220000000</LastModifiedDateUtcTicks>
+      <Hash>cGoui0NRUmWrT8zV+gRwQw==</Hash>
+    </Compile>
+    <Compile Include="classes\MyProfilePageController.cls">
+      <PhysicalRelativePath>src\classes\MyProfilePageController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOoAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>H6VL99jZpK4JNLXvUlqFNA==</Hash>
+    </Compile>
+    <Compile Include="classes\MyProfilePageControllerTest.cls">
+      <PhysicalRelativePath>src\classes\MyProfilePageControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOpAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>HpJQJhD+hyls62/IxHFBDg==</Hash>
+    </Compile>
+    <Compile Include="classes\MyWebService.cls">
+      <PhysicalRelativePath>src\classes\MyWebService.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006K31BAAS</Id>
+      <LastModifiedDateUtcTicks>131426254410000000</LastModifiedDateUtcTicks>
+      <Hash>vvSvGpR77KF8MPvkKaZBwg==</Hash>
+    </Compile>
+    <Compile Include="classes\MyWebServiceExample.cls">
+      <PhysicalRelativePath>src\classes\MyWebServiceExample.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006K7ZvAAK</Id>
+      <LastModifiedDateUtcTicks>131426956000000000</LastModifiedDateUtcTicks>
+      <Hash>lvRkvPFdN++wUiBefVCQkg==</Hash>
+    </Compile>
+    <Compile Include="classes\OpportunityAlertController.cls">
+      <PhysicalRelativePath>src\classes\OpportunityAlertController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JpUZAA0</Id>
+      <LastModifiedDateUtcTicks>131420968390000000</LastModifiedDateUtcTicks>
+      <Hash>G61rsScvOjbcFsrxC0vquA==</Hash>
+    </Compile>
+    <Compile Include="classes\OpportunityAlertController_test.cls">
+      <PhysicalRelativePath>src\classes\OpportunityAlertController_test.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JpUaAAK</Id>
+      <LastModifiedDateUtcTicks>131420968390000000</LastModifiedDateUtcTicks>
+      <Hash>kSc4T4ttYJ0lh3IoYtfWWA==</Hash>
+    </Compile>
+    <Compile Include="classes\OrderExtension.cls">
+      <PhysicalRelativePath>src\classes\OrderExtension.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006Ki4FAAS</Id>
+      <LastModifiedDateUtcTicks>131449485670000000</LastModifiedDateUtcTicks>
+      <Hash>6JLHFM9dEHoWTaDMpgGjgA==</Hash>
+    </Compile>
+    <Compile Include="classes\Page1Controller.cls">
+      <PhysicalRelativePath>src\classes\Page1Controller.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004QKaUAAW</Id>
+      <LastModifiedDateUtcTicks>131360427870000000</LastModifiedDateUtcTicks>
+      <Hash>ELlNn5DHUFWgBf3stvgU5Q==</Hash>
+    </Compile>
+    <Compile Include="classes\Page1ControllerTest.cls">
+      <PhysicalRelativePath>src\classes\Page1ControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SGoUAAW</Id>
+      <LastModifiedDateUtcTicks>131364512610000000</LastModifiedDateUtcTicks>
+      <Hash>YL3nnlagziwo8N8v1EA18A==</Hash>
+    </Compile>
+    <Compile Include="classes\Page2Controller.cls">
+      <PhysicalRelativePath>src\classes\Page2Controller.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004QL2YAAW</Id>
+      <LastModifiedDateUtcTicks>131364790270000000</LastModifiedDateUtcTicks>
+      <Hash>VPTWgIsP9nQAwxwEq9kTJA==</Hash>
+    </Compile>
+    <Compile Include="classes\Page2ControllerTest.cls">
+      <PhysicalRelativePath>src\classes\Page2ControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SNL2AAO</Id>
+      <LastModifiedDateUtcTicks>131367362210000000</LastModifiedDateUtcTicks>
+      <Hash>iTAo8LgOQI6KnE5RoEQINg==</Hash>
+    </Compile>
+    <Compile Include="classes\prodSearchController.cls">
+      <PhysicalRelativePath>src\classes\prodSearchController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KdNnAAK</Id>
+      <LastModifiedDateUtcTicks>131381041950000000</LastModifiedDateUtcTicks>
+      <Hash>PN/kaiRF+VjPDuBLBgd/pA==</Hash>
+    </Compile>
+    <Compile Include="classes\ProductExtension.cls">
+      <PhysicalRelativePath>src\classes\ProductExtension.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006Ki45AAC</Id>
+      <LastModifiedDateUtcTicks>131448545280000000</LastModifiedDateUtcTicks>
+      <Hash>Zuh/8Q5njOKv97M1pMpllA==</Hash>
+    </Compile>
+    <Compile Include="classes\QuantityCheck.cls">
+      <PhysicalRelativePath>src\classes\QuantityCheck.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006Ki9jAAC</Id>
+      <LastModifiedDateUtcTicks>131448707780000000</LastModifiedDateUtcTicks>
+      <Hash>g8NDjlbW8eNIz++RDV6DJA==</Hash>
+    </Compile>
+    <Compile Include="classes\QuantityCheckController.cls">
+      <PhysicalRelativePath>src\classes\QuantityCheckController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006Ki3gAAC</Id>
+      <LastModifiedDateUtcTicks>131448486650000000</LastModifiedDateUtcTicks>
+      <Hash>Pxyv3yGNjRgeJroSapSXnA==</Hash>
+    </Compile>
+    <Compile Include="classes\Sample.cls">
+      <PhysicalRelativePath>src\classes\Sample.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KcARAA0</Id>
+      <LastModifiedDateUtcTicks>131378573120000000</LastModifiedDateUtcTicks>
+      <Hash>5Sk8HzuaAyVKH2n6GEPi/Q==</Hash>
+    </Compile>
+    <Compile Include="classes\sampledd.cls">
+      <PhysicalRelativePath>src\classes\sampledd.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006JiWbAAK</Id>
+      <LastModifiedDateUtcTicks>131418316020000000</LastModifiedDateUtcTicks>
+      <Hash>LsZCrN282GLdUSd2oro0JA==</Hash>
+    </Compile>
+    <Compile Include="classes\SampleJira.cls">
+      <PhysicalRelativePath>src\classes\SampleJira.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003YAqAAAW</Id>
+      <LastModifiedDateUtcTicks>131354299920000000</LastModifiedDateUtcTicks>
+      <Hash>pAddc2SMSxQGUosj5FV6KA==</Hash>
+    </Compile>
+    <Compile Include="classes\samplesap.cls">
+      <PhysicalRelativePath>src\classes\samplesap.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KkiIAAS</Id>
+      <LastModifiedDateUtcTicks>131449416850000000</LastModifiedDateUtcTicks>
+      <Hash>6pxzoE7Y+uBIO0pkrvlAMA==</Hash>
+    </Compile>
+    <Compile Include="classes\SAP.cls">
+      <PhysicalRelativePath>src\classes\SAP.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KkZfAAK</Id>
+      <LastModifiedDateUtcTicks>131449230660000000</LastModifiedDateUtcTicks>
+      <Hash>nE1mSU+SmNJurW5WcJkK2Q==</Hash>
+    </Compile>
+    <Compile Include="classes\SAPServicesMain.cls">
+      <PhysicalRelativePath>src\classes\SAPServicesMain.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KkViAAK</Id>
+      <LastModifiedDateUtcTicks>131449375430000000</LastModifiedDateUtcTicks>
+      <Hash>iSjP4CPfRPKwLTtzyNftug==</Hash>
+    </Compile>
+    <Compile Include="classes\SchedulingJIRA.cls">
+      <PhysicalRelativePath>src\classes\SchedulingJIRA.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003Y9QjAAK</Id>
+      <LastModifiedDateUtcTicks>131471741050000000</LastModifiedDateUtcTicks>
+      <Hash>U+B6rjtN8GjFS+LI/2JKlQ==</Hash>
+    </Compile>
+    <Compile Include="classes\SchedulingJiraTest.cls">
+      <PhysicalRelativePath>src\classes\SchedulingJiraTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SMohAAG</Id>
+      <LastModifiedDateUtcTicks>131383737980000000</LastModifiedDateUtcTicks>
+      <Hash>fyglbqozmDZarzRQGIsIwQ==</Hash>
+    </Compile>
+    <Compile Include="classes\SchedulingJIRATests.cls">
+      <PhysicalRelativePath>src\classes\SchedulingJIRATests.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KveiAAC</Id>
+      <LastModifiedDateUtcTicks>131388233090000000</LastModifiedDateUtcTicks>
+      <Hash>W96kjldgZKsargviB/ZznQ==</Hash>
+    </Compile>
+    <Compile Include="classes\SchedulingMockTestGenerator.cls">
+      <PhysicalRelativePath>src\classes\SchedulingMockTestGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005Kvf7AAC</Id>
+      <LastModifiedDateUtcTicks>131383832230000000</LastModifiedDateUtcTicks>
+      <Hash>ipqQRnZKTsftxX29X5KQOg==</Hash>
+    </Compile>
+    <Compile Include="classes\SchedulingServiceNow.cls">
+      <PhysicalRelativePath>src\classes\SchedulingServiceNow.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003Y9MWAA0</Id>
+      <LastModifiedDateUtcTicks>131471778380000000</LastModifiedDateUtcTicks>
+      <Hash>1wgHNOlcxZqjZ7QuRVB4zw==</Hash>
+    </Compile>
+    <Compile Include="classes\SchedulingServiceNowTest.cls">
+      <PhysicalRelativePath>src\classes\SchedulingServiceNowTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005Kuw7AAC</Id>
+      <LastModifiedDateUtcTicks>131384667260000000</LastModifiedDateUtcTicks>
+      <Hash>oS8EDZV50vV/KLlrpeBIJg==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowAuth.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowAuth.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003WgtlAAC</Id>
+      <LastModifiedDateUtcTicks>131352535750000000</LastModifiedDateUtcTicks>
+      <Hash>9GiapLukiaPYMdhwxWQZyQ==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowConnect.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowConnect.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003WgC8AAK</Id>
+      <LastModifiedDateUtcTicks>131351656260000000</LastModifiedDateUtcTicks>
+      <Hash>/Al/MfyYzaMdtLox6M1IWA==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowGet.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowGet.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003XjPIAA0</Id>
+      <LastModifiedDateUtcTicks>131469349620000000</LastModifiedDateUtcTicks>
+      <Hash>66ssf0W6NpQMadIGrNpqGA==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowGetMockTestGenerator.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowGetMockTestGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004Rqs9AAC</Id>
+      <LastModifiedDateUtcTicks>131363944490000000</LastModifiedDateUtcTicks>
+      <Hash>9sbnFTHH97HyU0rJ6s9V/g==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowGetTest.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowGetTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RmphAAC</Id>
+      <LastModifiedDateUtcTicks>131384564540000000</LastModifiedDateUtcTicks>
+      <Hash>pBmbPGhuEDJG5oS+wnRmuw==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowPost.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowPost.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003XjL0AAK</Id>
+      <LastModifiedDateUtcTicks>131388158200000000</LastModifiedDateUtcTicks>
+      <Hash>mSFurT4AGaS/kiI6YEpW/Q==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowPostMockTestGenerator.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowPostMockTestGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004RqjZAAS</Id>
+      <LastModifiedDateUtcTicks>131363942650000000</LastModifiedDateUtcTicks>
+      <Hash>XHDV4V8y2Ie7ODgRk2ICbg==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowPostTest.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowPostTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004Rn2ZAAS</Id>
+      <LastModifiedDateUtcTicks>131388125060000000</LastModifiedDateUtcTicks>
+      <Hash>3EvnTDor/nc/Cbd0lAaOXg==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowUpsert.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowUpsert.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003Y9MRAA0</Id>
+      <LastModifiedDateUtcTicks>131388156430000000</LastModifiedDateUtcTicks>
+      <Hash>mqiBzxAbkPhlG8ARQS8CAA==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowUpsertMockTestGenerator.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowUpsertMockTestGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SD2KAAW</Id>
+      <LastModifiedDateUtcTicks>131364379890000000</LastModifiedDateUtcTicks>
+      <Hash>pRwuWJkQemg0kyofjUwX2Q==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiceNowUpsertTest.cls">
+      <PhysicalRelativePath>src\classes\ServiceNowUpsertTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SD2FAAW</Id>
+      <LastModifiedDateUtcTicks>131384658420000000</LastModifiedDateUtcTicks>
+      <Hash>Xf1z4ymy9e3zjvTvPq+MyA==</Hash>
+    </Compile>
+    <Compile Include="classes\ServiveNowBatch.cls">
+      <PhysicalRelativePath>src\classes\ServiveNowBatch.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000003Y0n1AAC</Id>
+      <LastModifiedDateUtcTicks>131353462250000000</LastModifiedDateUtcTicks>
+      <Hash>DMK4zSH8nhtvsgV6j/FtEg==</Hash>
+    </Compile>
+    <Compile Include="classes\SiteLoginController.cls">
+      <PhysicalRelativePath>src\classes\SiteLoginController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOgAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>G1f1bzrQHc0Qq5eU9bpK9w==</Hash>
+    </Compile>
+    <Compile Include="classes\SiteLoginControllerTest.cls">
+      <PhysicalRelativePath>src\classes\SiteLoginControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOhAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>qcrMXORSzKEt6SStZwXrMQ==</Hash>
+    </Compile>
+    <Compile Include="classes\SiteRegisterController.cls">
+      <PhysicalRelativePath>src\classes\SiteRegisterController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOiAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>ZnIt5HiBP8JGaUjLi9SqmA==</Hash>
+    </Compile>
+    <Compile Include="classes\SiteRegisterControllerTest.cls">
+      <PhysicalRelativePath>src\classes\SiteRegisterControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000002WVOjAAO</Id>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>5CxIb2ft7md2s6P4HpjQ9g==</Hash>
+    </Compile>
+    <Compile Include="classes\SNowFieldsController.cls">
+      <PhysicalRelativePath>src\classes\SNowFieldsController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KNpOAAW</Id>
+      <LastModifiedDateUtcTicks>131381059560000000</LastModifiedDateUtcTicks>
+      <Hash>4qqDzQrANHVaUVYqDUXQfw==</Hash>
+    </Compile>
+    <Compile Include="classes\SNowMappingController.cls">
+      <PhysicalRelativePath>src\classes\SNowMappingController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KdL0AAK</Id>
+      <LastModifiedDateUtcTicks>131381061330000000</LastModifiedDateUtcTicks>
+      <Hash>eqfTkuKTvYlDuZaV6CjjSw==</Hash>
+    </Compile>
+    <Compile Include="classes\tempuriOrg.cls">
+      <PhysicalRelativePath>src\classes\tempuriOrg.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KJ7iAAG</Id>
+      <LastModifiedDateUtcTicks>131437178540000000</LastModifiedDateUtcTicks>
+      <Hash>l7J0bfFG292KxnQj8tEUiw==</Hash>
+    </Compile>
+    <Compile Include="classes\TestController.cls">
+      <PhysicalRelativePath>src\classes\TestController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KdLSAA0</Id>
+      <LastModifiedDateUtcTicks>131380962660000000</LastModifiedDateUtcTicks>
+      <Hash>WJY9oBqRDrCHsMs4C4/dXg==</Hash>
+    </Compile>
+    <Compile Include="classes\testjiraupsert.cls">
+      <PhysicalRelativePath>src\classes\testjiraupsert.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004SK9fAAG</Id>
+      <LastModifiedDateUtcTicks>131364661300000000</LastModifiedDateUtcTicks>
+      <Hash>Q6Qr6XutmmR1CkIV+KYPcA==</Hash>
+    </Compile>
+    <Compile Include="classes\UnlockRecordDuringApprovalCon.cls">
+      <PhysicalRelativePath>src\classes\UnlockRecordDuringApprovalCon.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006Kw9zAAC</Id>
+      <LastModifiedDateUtcTicks>131455515140000000</LastModifiedDateUtcTicks>
+      <Hash>9m/b80SgZnUWK8GDQD2WWQ==</Hash>
+    </Compile>
+    <Compile Include="classes\Vision.cls">
+      <PhysicalRelativePath>src\classes\Vision.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004Pv8vAAC</Id>
+      <LastModifiedDateUtcTicks>131359543910000000</LastModifiedDateUtcTicks>
+      <Hash>N9HelnTDAJmoR5zu1k8TtA==</Hash>
+    </Compile>
+    <Compile Include="classes\VisionController.cls">
+      <PhysicalRelativePath>src\classes\VisionController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000004Pv90AAC</Id>
+      <LastModifiedDateUtcTicks>131359551370000000</LastModifiedDateUtcTicks>
+      <Hash>XvUAdCsaDss9CDnjluk2tA==</Hash>
+    </Compile>
+    <Compile Include="classes\wrapper_test_controller.cls">
+      <PhysicalRelativePath>src\classes\wrapper_test_controller.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000005KVLvAAO</Id>
+      <LastModifiedDateUtcTicks>131376886240000000</LastModifiedDateUtcTicks>
+      <Hash>V09+SVRVOhf4IjoAsiSqSQ==</Hash>
+    </Compile>
+    <Compile Include="classes\wsStrikeironCom.cls">
+      <PhysicalRelativePath>src\classes\wsStrikeironCom.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KJ7jAAG</Id>
+      <LastModifiedDateUtcTicks>131437178540000000</LastModifiedDateUtcTicks>
+      <Hash>/DXgX2+KhGCJ1qs7NKGOug==</Hash>
+    </Compile>
+    <Compile Include="classes\wwwApprouterComConnectorsRequest7.cls">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsRequest7.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KeNWAA0</Id>
+      <LastModifiedDateUtcTicks>131445235990000000</LastModifiedDateUtcTicks>
+      <Hash>+4frYUoo7Pbeiu9+ymBSCg==</Hash>
+    </Compile>
+    <Compile Include="classes\wwwApprouterComConnectorsResponse7.cls">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsResponse7.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KeNVAA0</Id>
+      <LastModifiedDateUtcTicks>131445235990000000</LastModifiedDateUtcTicks>
+      <Hash>1Hxm6yxXQdY3VpJwCiXjMw==</Hash>
+    </Compile>
+    <Compile Include="classes\wwwApprouterComConnectorsWsdl.cls">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsWsdl.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KeNXAA0</Id>
+      <LastModifiedDateUtcTicks>131449487430000000</LastModifiedDateUtcTicks>
+      <Hash>b9AK7a4qSE74itoyKirggg==</Hash>
+    </Compile>
+    <Compile Include="classes\wwwApprouterComConnectorsWsdl1.cls">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsWsdl1.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KgYcAAK</Id>
+      <LastModifiedDateUtcTicks>131447954910000000</LastModifiedDateUtcTicks>
+      <Hash>EKzIdqmLYYfvNw8unDDmZg==</Hash>
+    </Compile>
+    <Compile Include="classes\wwwApprouterComConnectorsWsdlServive.cls">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsWsdlServive.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p46000006KkVTAA0</Id>
+      <LastModifiedDateUtcTicks>131449375430000000</LastModifiedDateUtcTicks>
+      <Hash>pyyBz9wb2BpWV8I1M0cWCQ==</Hash>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="classes\AccountController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\AccountController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131421065910000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\AccountController.cls</DependentUpon>
+    </None>
+    <None Include="classes\AccountControllerExample.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\AccountControllerExample.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131423390180000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\AccountControllerExample.cls</DependentUpon>
+    </None>
+    <None Include="classes\AccountRemoterJS.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\AccountRemoterJS.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131447727490000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\AccountRemoterJS.cls</DependentUpon>
+    </None>
+    <None Include="classes\AccountsController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\AccountsController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131441707060000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\AccountsController.cls</DependentUpon>
+    </None>
+    <None Include="classes\AsyncTempuriOrg.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\AsyncTempuriOrg.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131437178540000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\AsyncTempuriOrg.cls</DependentUpon>
+    </None>
+    <None Include="classes\AsyncWsStrikeironCom.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\AsyncWsStrikeironCom.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131437178540000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\AsyncWsStrikeironCom.cls</DependentUpon>
+    </None>
+    <None Include="classes\AsyncWwwApprouterComConnectorsResponse7.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\AsyncWwwApprouterComConnectorsResponse7.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131445235990000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\AsyncWwwApprouterComConnectorsResponse7.cls</DependentUpon>
+    </None>
+    <None Include="classes\AsyncWwwApprouterComConnectorsWsdl.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\AsyncWwwApprouterComConnectorsWsdl.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131445235990000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\AsyncWwwApprouterComConnectorsWsdl.cls</DependentUpon>
+    </None>
+    <None Include="classes\BlueCanvas.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\BlueCanvas.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131478628760000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\BlueCanvas.cls</DependentUpon>
+    </None>
+    <None Include="classes\Button_Check.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Button_Check.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131449621330000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\Button_Check.cls</DependentUpon>
+    </None>
+    <None Include="classes\CaseAllocation.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CaseAllocation.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131346699860000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\CaseAllocation.cls</DependentUpon>
+    </None>
+    <None Include="classes\CaseAssignment.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CaseAssignment.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131356356600000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\CaseAssignment.cls</DependentUpon>
+    </None>
+    <None Include="classes\CaseAssignmentTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CaseAssignmentTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131375009820000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\CaseAssignmentTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\CaseFieldsGet.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CaseFieldsGet.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131378703720000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\CaseFieldsGet.cls</DependentUpon>
+    </None>
+    <None Include="classes\CasesMain.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CasesMain.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131471772730000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\CasesMain.cls</DependentUpon>
+    </None>
+    <None Include="classes\CasesMainTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CasesMainTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131381155750000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\CasesMainTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\CasesMainTestDataGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CasesMainTestDataGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131381154910000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\CasesMainTestDataGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\CaseUserHelper.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CaseUserHelper.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131364790800000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\CaseUserHelper.cls</DependentUpon>
+    </None>
+    <None Include="classes\CaseUserHelperTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CaseUserHelperTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131364793630000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\CaseUserHelperTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\CastIronLogin.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CastIronLogin.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131449485770000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\CastIronLogin.cls</DependentUpon>
+    </None>
+    <None Include="classes\CastIron_Invoke.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CastIron_Invoke.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131437224060000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\CastIron_Invoke.cls</DependentUpon>
+    </None>
+    <None Include="classes\ChangePasswordController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ChangePasswordController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\ChangePasswordController.cls</DependentUpon>
+    </None>
+    <None Include="classes\ChangePasswordControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ChangePasswordControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\ChangePasswordControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\CommunitiesLandingController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CommunitiesLandingController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\CommunitiesLandingController.cls</DependentUpon>
+    </None>
+    <None Include="classes\CommunitiesLandingControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CommunitiesLandingControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\CommunitiesLandingControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\CommunitiesLoginController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CommunitiesLoginController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\CommunitiesLoginController.cls</DependentUpon>
+    </None>
+    <None Include="classes\CommunitiesLoginControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CommunitiesLoginControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\CommunitiesLoginControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\CommunitiesSelfRegConfirmController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CommunitiesSelfRegConfirmController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\CommunitiesSelfRegConfirmController.cls</DependentUpon>
+    </None>
+    <None Include="classes\CommunitiesSelfRegConfirmControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CommunitiesSelfRegConfirmControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\CommunitiesSelfRegConfirmControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\CommunitiesSelfRegController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CommunitiesSelfRegController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\CommunitiesSelfRegController.cls</DependentUpon>
+    </None>
+    <None Include="classes\CommunitiesSelfRegControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\CommunitiesSelfRegControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095370000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\CommunitiesSelfRegControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\ContactController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ContactController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131418317880000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\ContactController.cls</DependentUpon>
+    </None>
+    <None Include="classes\DataInsert.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\DataInsert.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131381339790000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\DataInsert.cls</DependentUpon>
+    </None>
+    <None Include="classes\Describer.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Describer.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131371820150000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\Describer.cls</DependentUpon>
+    </None>
+    <None Include="classes\Deserialization.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Deserialization.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131382945290000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\Deserialization.cls</DependentUpon>
+    </None>
+    <None Include="classes\deserializejirajson.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\deserializejirajson.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131382607840000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\deserializejirajson.cls</DependentUpon>
+    </None>
+    <None Include="classes\DynamicAccountFieldsLister.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\DynamicAccountFieldsLister.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131372393350000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\DynamicAccountFieldsLister.cls</DependentUpon>
+    </None>
+    <None Include="classes\DynamicCustomizableListHandler.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\DynamicCustomizableListHandler.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131372405370000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\DynamicCustomizableListHandler.cls</DependentUpon>
+    </None>
+    <None Include="classes\DynamicFieldMapping.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\DynamicFieldMapping.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131376599030000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\DynamicFieldMapping.cls</DependentUpon>
+    </None>
+    <None Include="classes\DynamicObjectHandler.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\DynamicObjectHandler.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131377705240000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\DynamicObjectHandler.cls</DependentUpon>
+    </None>
+    <None Include="classes\DynamicTableController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\DynamicTableController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131377880550000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\DynamicTableController.cls</DependentUpon>
+    </None>
+    <None Include="classes\DynamicVFClass.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\DynamicVFClass.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131377711610000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\DynamicVFClass.cls</DependentUpon>
+    </None>
+    <None Include="classes\Dynamic_Deserialization.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Dynamic_Deserialization.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131383658500000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\Dynamic_Deserialization.cls</DependentUpon>
+    </None>
+    <None Include="classes\ExpenseController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ExpenseController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131419165760000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\ExpenseController.cls</DependentUpon>
+    </None>
+    <None Include="classes\ExpensesController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ExpensesController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131418266880000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\ExpensesController.cls</DependentUpon>
+    </None>
+    <None Include="classes\ForgotPasswordController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ForgotPasswordController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\ForgotPasswordController.cls</DependentUpon>
+    </None>
+    <None Include="classes\ForgotPasswordControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ForgotPasswordControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\ForgotPasswordControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\HelloWorld18Controller.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\HelloWorld18Controller.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131453695550000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\HelloWorld18Controller.cls</DependentUpon>
+    </None>
+    <None Include="classes\HotelMaps.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\HotelMaps.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131451286890000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\HotelMaps.cls</DependentUpon>
+    </None>
+    <None Include="classes\HttpFormBuilder.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\HttpFormBuilder.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131359543520000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\HttpFormBuilder.cls</DependentUpon>
+    </None>
+    <None Include="classes\InTheArea.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\InTheArea.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131443420960000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\InTheArea.cls</DependentUpon>
+    </None>
+    <None Include="classes\Invoke_Webservice.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Invoke_Webservice.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131438083550000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\Invoke_Webservice.cls</DependentUpon>
+    </None>
+    <None Include="classes\Issue.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Issue.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131354278960000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\Issue.cls</DependentUpon>
+    </None>
+    <None Include="classes\IssueResponceDeserilize.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\IssueResponceDeserilize.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131362114610000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\IssueResponceDeserilize.cls</DependentUpon>
+    </None>
+    <None Include="classes\IssuesToCases.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\IssuesToCases.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131363034810000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\IssuesToCases.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraFieldsController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraFieldsController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131377777530000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\JiraFieldsController.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCaseGet.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCaseGet.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131471751650000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCaseGet.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCaseGetMockGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCaseGetMockGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131381206310000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCaseGetMockGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCaseGetTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCaseGetTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131381210450000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCaseGetTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCasePost.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCasePost.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131388169110000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCasePost.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCasePostMockGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCasePostMockGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131382044690000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCasePostMockGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCasePostTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCasePostTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131388144760000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCasePostTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCasePut.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCasePut.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131388152850000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCasePut.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCasePutMockGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCasePutMockGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131382643510000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCasePutMockGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCasePutTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCasePutTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131382647080000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCasePutTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCaseUpsert.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCaseUpsert.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131387966520000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCaseUpsert.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCaseUpsertMockGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCaseUpsertMockGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131364469160000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCaseUpsertMockGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\JiraSfCaseUpsertTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JiraSfCaseUpsertTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131375071080000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\JiraSfCaseUpsertTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\JWT.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JWT.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131359537770000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\JWT.cls</DependentUpon>
+    </None>
+    <None Include="classes\JWTBearerFlow.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\JWTBearerFlow.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131359546570000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\JWTBearerFlow.cls</DependentUpon>
+    </None>
+    <None Include="classes\LightningConnectQuickstart.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\LightningConnectQuickstart.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425256450000000</LastModifiedDateUtcTicks>
+      <Hash>b1HE0Vl1xkb9tziFDA9Dwg==</Hash>
+      <DependentUpon>classes\LightningConnectQuickstart.cls</DependentUpon>
+    </None>
+    <None Include="classes\LightningForgotPasswordController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\LightningForgotPasswordController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\LightningForgotPasswordController.cls</DependentUpon>
+    </None>
+    <None Include="classes\LightningForgotPasswordControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\LightningForgotPasswordControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\LightningForgotPasswordControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\LightningLoginFormController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\LightningLoginFormController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\LightningLoginFormController.cls</DependentUpon>
+    </None>
+    <None Include="classes\LightningLoginFormControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\LightningLoginFormControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\LightningLoginFormControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\LightningSelfRegisterController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\LightningSelfRegisterController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\LightningSelfRegisterController.cls</DependentUpon>
+    </None>
+    <None Include="classes\LightningSelfRegisterControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\LightningSelfRegisterControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131425095390000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\LightningSelfRegisterControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\Login.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Login.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131449226070000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\Login.cls</DependentUpon>
+    </None>
+    <None Include="classes\MockTestClassGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\MockTestClassGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131363922010000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\MockTestClassGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\multiselect.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\multiselect.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131378593330000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\multiselect.cls</DependentUpon>
+    </None>
+    <None Include="classes\MyContactListController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\MyContactListController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131420999220000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\MyContactListController.cls</DependentUpon>
+    </None>
+    <None Include="classes\MyProfilePageController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\MyProfilePageController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\MyProfilePageController.cls</DependentUpon>
+    </None>
+    <None Include="classes\MyProfilePageControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\MyProfilePageControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\MyProfilePageControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\MyWebService.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\MyWebService.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131426254410000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\MyWebService.cls</DependentUpon>
+    </None>
+    <None Include="classes\MyWebServiceExample.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\MyWebServiceExample.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131426956000000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\MyWebServiceExample.cls</DependentUpon>
+    </None>
+    <None Include="classes\OpportunityAlertController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\OpportunityAlertController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131420968390000000</LastModifiedDateUtcTicks>
+      <Hash>qng0Gdct4y/dxy7zk23ZdQ==</Hash>
+      <DependentUpon>classes\OpportunityAlertController.cls</DependentUpon>
+    </None>
+    <None Include="classes\OpportunityAlertController_test.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\OpportunityAlertController_test.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131420968390000000</LastModifiedDateUtcTicks>
+      <Hash>qng0Gdct4y/dxy7zk23ZdQ==</Hash>
+      <DependentUpon>classes\OpportunityAlertController_test.cls</DependentUpon>
+    </None>
+    <None Include="classes\OrderExtension.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\OrderExtension.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131449485670000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\OrderExtension.cls</DependentUpon>
+    </None>
+    <None Include="classes\Page1Controller.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Page1Controller.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131360427870000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\Page1Controller.cls</DependentUpon>
+    </None>
+    <None Include="classes\Page1ControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Page1ControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131364512610000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\Page1ControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\Page2Controller.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Page2Controller.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131364790270000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\Page2Controller.cls</DependentUpon>
+    </None>
+    <None Include="classes\Page2ControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Page2ControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131367362210000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\Page2ControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\prodSearchController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\prodSearchController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131381041950000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\prodSearchController.cls</DependentUpon>
+    </None>
+    <None Include="classes\ProductExtension.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ProductExtension.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131448545280000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\ProductExtension.cls</DependentUpon>
+    </None>
+    <None Include="classes\QuantityCheck.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\QuantityCheck.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131448707780000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\QuantityCheck.cls</DependentUpon>
+    </None>
+    <None Include="classes\QuantityCheckController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\QuantityCheckController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131448486650000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\QuantityCheckController.cls</DependentUpon>
+    </None>
+    <None Include="classes\Sample.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Sample.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131378573120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\Sample.cls</DependentUpon>
+    </None>
+    <None Include="classes\sampledd.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\sampledd.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131418316020000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\sampledd.cls</DependentUpon>
+    </None>
+    <None Include="classes\SampleJira.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SampleJira.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131354299920000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\SampleJira.cls</DependentUpon>
+    </None>
+    <None Include="classes\samplesap.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\samplesap.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131449416850000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\samplesap.cls</DependentUpon>
+    </None>
+    <None Include="classes\SAP.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SAP.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131449230660000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\SAP.cls</DependentUpon>
+    </None>
+    <None Include="classes\SAPServicesMain.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SAPServicesMain.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131449375430000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\SAPServicesMain.cls</DependentUpon>
+    </None>
+    <None Include="classes\SchedulingJIRA.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SchedulingJIRA.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131471741050000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\SchedulingJIRA.cls</DependentUpon>
+    </None>
+    <None Include="classes\SchedulingJiraTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SchedulingJiraTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131383737980000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\SchedulingJiraTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\SchedulingJIRATests.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SchedulingJIRATests.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131388233090000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\SchedulingJIRATests.cls</DependentUpon>
+    </None>
+    <None Include="classes\SchedulingMockTestGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SchedulingMockTestGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131383832230000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\SchedulingMockTestGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\SchedulingServiceNow.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SchedulingServiceNow.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131471778380000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\SchedulingServiceNow.cls</DependentUpon>
+    </None>
+    <None Include="classes\SchedulingServiceNowTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SchedulingServiceNowTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131384667260000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\SchedulingServiceNowTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowAuth.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowAuth.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131352535750000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowAuth.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowConnect.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowConnect.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131351656260000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowConnect.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowGet.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowGet.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131469349620000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowGet.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowGetMockTestGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowGetMockTestGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131363944490000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowGetMockTestGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowGetTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowGetTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131384564540000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowGetTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowPost.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowPost.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131388158200000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowPost.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowPostMockTestGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowPostMockTestGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131363942650000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowPostMockTestGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowPostTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowPostTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131388125060000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowPostTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowUpsert.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowUpsert.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131388156430000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowUpsert.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowUpsertMockTestGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowUpsertMockTestGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131364379890000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowUpsertMockTestGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiceNowUpsertTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiceNowUpsertTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131384658420000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\ServiceNowUpsertTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\ServiveNowBatch.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ServiveNowBatch.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131353462250000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\ServiveNowBatch.cls</DependentUpon>
+    </None>
+    <None Include="classes\SiteLoginController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SiteLoginController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\SiteLoginController.cls</DependentUpon>
+    </None>
+    <None Include="classes\SiteLoginControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SiteLoginControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\SiteLoginControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\SiteRegisterController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SiteRegisterController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\SiteRegisterController.cls</DependentUpon>
+    </None>
+    <None Include="classes\SiteRegisterControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SiteRegisterControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131341479120000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\SiteRegisterControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes\SNowFieldsController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SNowFieldsController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131381059560000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\SNowFieldsController.cls</DependentUpon>
+    </None>
+    <None Include="classes\SNowMappingController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SNowMappingController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131381061330000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\SNowMappingController.cls</DependentUpon>
+    </None>
+    <None Include="classes\tempuriOrg.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\tempuriOrg.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131437178540000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\tempuriOrg.cls</DependentUpon>
+    </None>
+    <None Include="classes\TestController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\TestController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131380962660000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\TestController.cls</DependentUpon>
+    </None>
+    <None Include="classes\testjiraupsert.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\testjiraupsert.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131364661300000000</LastModifiedDateUtcTicks>
+      <Hash>TuLywk7fcHal6tl71+9MzQ==</Hash>
+      <DependentUpon>classes\testjiraupsert.cls</DependentUpon>
+    </None>
+    <None Include="classes\UnlockRecordDuringApprovalCon.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\UnlockRecordDuringApprovalCon.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131455515140000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\UnlockRecordDuringApprovalCon.cls</DependentUpon>
+    </None>
+    <None Include="classes\Vision.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\Vision.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131359543910000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\Vision.cls</DependentUpon>
+    </None>
+    <None Include="classes\VisionController.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\VisionController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131359551370000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\VisionController.cls</DependentUpon>
+    </None>
+    <None Include="classes\wrapper_test_controller.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\wrapper_test_controller.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131376886240000000</LastModifiedDateUtcTicks>
+      <Hash>uusv40XDo7W7TGVJTExSOQ==</Hash>
+      <DependentUpon>classes\wrapper_test_controller.cls</DependentUpon>
+    </None>
+    <None Include="classes\wsStrikeironCom.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\wsStrikeironCom.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131437178540000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\wsStrikeironCom.cls</DependentUpon>
+    </None>
+    <None Include="classes\wwwApprouterComConnectorsRequest7.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsRequest7.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131445235990000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\wwwApprouterComConnectorsRequest7.cls</DependentUpon>
+    </None>
+    <None Include="classes\wwwApprouterComConnectorsResponse7.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsResponse7.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131445235990000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\wwwApprouterComConnectorsResponse7.cls</DependentUpon>
+    </None>
+    <None Include="classes\wwwApprouterComConnectorsWsdl.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsWsdl.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131449487430000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\wwwApprouterComConnectorsWsdl.cls</DependentUpon>
+    </None>
+    <None Include="classes\wwwApprouterComConnectorsWsdl1.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsWsdl1.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131447954910000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\wwwApprouterComConnectorsWsdl1.cls</DependentUpon>
+    </None>
+    <None Include="classes\wwwApprouterComConnectorsWsdlServive.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\wwwApprouterComConnectorsWsdlServive.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131449375430000000</LastModifiedDateUtcTicks>
+      <Hash>Up9vsRjASNLSUyo+Za9k0Q==</Hash>
+      <DependentUpon>classes\wwwApprouterComConnectorsWsdlServive.cls</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Build.targets" />
+</Project>
